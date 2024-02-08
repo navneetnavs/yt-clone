@@ -8,7 +8,14 @@ export default function Home() {
   return (
     <div>
       hi there
-      <VideoCard></VideoCard>
+      <VideoCard
+        title={"Learn with me"}
+        image={'photo.jpg'}
+        thumbimage = {"photo.jpg"}
+        author = {"Navneet Singh"}
+        views = {"122k"}
+        tmestamp = {"2 days ago"}
+        ></VideoCard>
     </div>
   );
 }
